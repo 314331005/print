@@ -16,11 +16,11 @@ public class DataBean {
 	private String  dayCount ;
 	private String  allCount ;
 	
-	private String readtotail;//借阅总数
+	private String readtotail = "0";//借阅总数
 	private String school;//学院
-	private String currentcount;//当前借阅书
+	private String currentcount = "0";//当前借阅书
 	private String major;//专业
-	private String noreturn;//未归还
+	private String noreturn = "0";//未归还
 	
 	public String getUser() {
 		return user;
